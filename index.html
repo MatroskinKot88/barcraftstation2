@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BarCraft Pro — Барное оборудование премиум-класса</title>
+  <link rel="stylesheet" href="./src/style.css">
+</head>
+<body class="page">
+
+  <!-- Хедер -->
+<header class="header">
+  <div class="header__container">
+    <a href="#" class="header__logo">BarCraftStation</a>
+    <nav class="header__nav">
+      <ul class="header__list">
+        <li class="header__item"><a href="#features" class="header__link">Преимущества</a></li>
+        <li class="header__item"><a href="#pricing" class="header__link">Цены</a></li>
+        <li class="header__item"><a href="#products" class="header__link">Каталог</a></li>
+        <li class="header__item"><a href="#reviews" class="header__link">Отзывы</a></li>
+        <li class="header__item"><a href="#cta" class="header__link">Заказать</a></li>
+        <li class="header__item"><a href="#contacts" class="header__link">Контакты</a></li>
+      </ul>
+    </nav>
+    <button class="header__burger" aria-label="Меню">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+</header>
+
+  <!-- Hero секция -->
+  <section class="hero js-parallax" data-bg="./src/img/barstation.webp">
+    <div class="hero__container">
+      <h1 class="hero__title">Барные станции, которые не подведут в пик</h1>
+      <p class="hero__subtitle">
+        Изготавливаем эргономичные, гигиеничные и долговечные рабочие зоны для баров и ресторанов — по вашим размерам и требованиям.
+      </p>
+      <a href="#contact" class="hero__btn btn">Рассчитать проект</a>
+    </div>
+  </section>
+
+  <!-- Преимущества -->
+  <section class="features">
+    <div class="features__container">
+      <h2 class="features__title">Почему выбирают нас</h2>
+      <ul class="features__list">
+        <li class="features__item">
+          <h3 class="features__item-title">Эргономика</h3>
+          <p class="features__item-text">
+            Рабочие поверхности спроектированы с учётом движений бармена — меньше усталости, выше скорость.
+          </p>
+        </li>
+        <li class="features__item">
+          <h3 class="features__item-title">Гигиена</h3>
+          <p class="features__item-text">
+            Гладкие швы, отсутствие щелей, полная герметизация — легко мыть, соответствует саннормам.
+          </p>
+        </li>
+        <li class="features__item">
+          <h3 class="features__item-title">Нержавеющая сталь</h3>
+          <p class="features__item-text">
+            Материал AISI 304 — устойчив к коррозии, кислотам и механическим повреждениям.
+          </p>
+        </li>
+        <li class="features__item">
+          <h3 class="features__item-title">Индивидуальные размеры</h3>
+          <p class="features__item-text">
+            Изготавливаем под любую планировку — от мини-бара до крупного ресторана.
+          </p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="pricing">
+  <div class="pricing__container">
+    <h2 class="pricing__title">Выберите подходящий комплект</h2>
+    <div class="pricing__grid">
+      <!-- Базовый тариф -->
+      <div class="pricing__plan pricing__plan--basic">
+        <h3 class="pricing__plan-title">Барная стойка</h3>
+        <div class="pricing__price">от 180 000 ₽</div>
+        <ul class="pricing__features">
+          <li class="pricing__feature">Рабочая поверхность из AISI 304</li>
+          <li class="pricing__feature">Раковина с сифоном</li>
+          <li class="pricing__feature">Зона налива (3 крана)</li>
+          <li class="pricing__feature">2 встраиваемых ящика</li>
+          <li class="pricing__feature">Сборка и доставка по РФ</li>
+        </ul>
+        <a href="#contact" class="pricing__btn">Запросить КП</a>
+      </div>
+
+      <!-- Профессиональный тариф -->
+      <div class="pricing__plan pricing__plan--pro">
+        <h3 class="pricing__plan-title">Коктейльный комплекс</h3>
+        <div class="pricing__price">от 320 000 ₽</div>
+        <ul class="pricing__features">
+          <li class="pricing__feature">Всё из базового комплекта</li>
+          <li class="pricing__feature">Зона шейкера с ледницей</li>
+          <li class="pricing__feature">Модуль для сиропов и соков</li>
+          <li class="pricing__feature">Эргономичная подсветка</li>
+          <li class="pricing__feature">Усиленная опора под нагрузку</li>
+        </ul>
+        <a href="#contact" class="pricing__btn">Запросить КП</a>
+      </div>
+
+      <!-- Премиум тариф -->
+      <div class="pricing__plan pricing__plan--premium">
+        <h3 class="pricing__plan-title">Полный проект</h3>
+        <div class="pricing__price">от 550 000 ₽</div>
+        <ul class="pricing__features">
+          <li class="pricing__feature">Индивидуальный замер на месте</li>
+          <li class="pricing__feature">3D-визуализация проекта</li>
+          <li class="pricing__feature">Интеграция с вентиляцией и ХВС</li>
+          <li class="pricing__feature">Полный HoReCa-комплект</li>
+          <li class="pricing__feature">Гарантия 3 года + сервис</li>
+        </ul>
+        <a href="#contact" class="pricing__btn">Запросить КП</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Продукция -->
+  <section class="products">
+    <div class="products__container">
+      <h2 class="products__title">Наше оборудование</h2>
+      <ul class="products__list">
+        <li class="products__item">
+          <h3 class="products__item-title">Барная станция</h3>
+          <p class="products__item-text">
+            С раковиной, зоной налива и встраиваемыми модулями для соков и сиропов.
+          </p>
+        </li>
+        <li class="products__item">
+          <h3 class="products__item-title">Коктейльная зона</h3>
+          <p class="products__item-text">
+            Специализированная станция с льдогенератором, шейкер-стойкой и местом для инвентаря.
+          </p>
+        </li>
+        <li class="products__item">
+          <h3 class="products__item-title">Кухонный стол для бара</h3>
+          <p class="products__item-text">
+            Рабочая поверхность для приготовления закусок и пиццы — с охлаждёнными ящиками.
+          </p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+ <section class="reviews">
+  <div class="reviews__container">
+    <h2 class="reviews__title">Что говорят наши клиенты</h2>
+    <ul class="reviews__list">
+      <li class="reviews__item">
+        <div class="reviews__author">
+          <div class="reviews__avatar" data-src="avatar-1.jpg"></div>
+          <div class="reviews__author-info">
+            <p class="reviews__author-name">Анна Волкова</p>
+            <p class="reviews__author-position">Владелец бара «Медь», Москва</p>
+          </div>
+        </div>
+        <p class="reviews__text">
+          Заказали стойку под срочный релиз — изготовили и смонтировали за 9 дней. Уже 14 месяцев в работе, ни одной рекламации. Даже в новогодний уикенд выдержала нагрузку 300+ коктейлей за вечер.
+        </p>
+      </li>
+      <li class="reviews__item">
+        <div class="reviews__author">
+          <div class="reviews__avatar" data-src="avatar-2.jpg"></div>
+          <div class="reviews__author-info">
+            <p class="reviews__author-name">Дмитрий Соколов</p>
+            <p class="reviews__author-position">Шеф-бармен, лауреат Bar Awards 2023</p>
+          </div>
+        </div>
+        <p class="reviews__text">
+          Работаю с их станциями с 2022 года — в трёх разных заведениях. Главное — эргономика: за 2 года ни одного случая туннельного синдрома у барменов. Это редкость в нашей индустрии.
+        </p>
+      </li>
+      <li class="reviews__item">
+        <div class="reviews__author">
+          <div class="reviews__avatar" data-src="avatar-3.jpg"></div>
+          <div class="reviews__author-info">
+            <p class="reviews__author-name">Максим Егоров</p>
+            <p class="reviews__author-position">Управляющий сетью «Гастрономика» (12 точек)</p>
+          </div>
+        </div>
+        <p class="reviews__text">
+          Внедрили оборудование во все 12 локаций за 6 недель. С 2023 года — ни одного вызова сервиса. При этом санврачи одобряют герметичность стыков без лишних вопросов.
+        </p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+  <!-- CTA -->
+  <section class="cta" id="contact">
+    <div class="cta__container">
+      <h2 class="cta__title">Готовы к сотрудничеству?</h2>
+      <p class="cta__subtitle">
+        Отправьте запрос — наш менеджер ответит в течение 2 часов и пришлёт коммерческое предложение.
+      </p>
+      <form class="cta__form form">
+        <div class="form__group">
+          <label for="name" class="form__label">Ваше имя</label>
+          <input type="text" id="name" class="form__input" required>
+        </div>
+        <div class="form__group">
+          <label for="email" class="form__label">Email или WhatsApp</label>
+          <input type="text" id="email" class="form__input" required>
+        </div>
+        <div class="form__group">
+          <label for="equipment" class="form__label">Тип оборудования</label>
+          <select id="equipment" class="form__select" required>
+            <option value="">Выберите...</option>
+            <option value="bar-counter">Барная стойка</option>
+            <option value="cocktail-station">Коктейльная зона</option>
+            <option value="kitchen-table">Кухонный стол для бара</option>
+            <option value="custom">Хочу индивидуальный проект</option>
+          </select>
+        </div>
+        <button type="submit" class="form__btn btn">Отправить запрос</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer__container">
+      <p class="footer__text">&copy; 2025 BarCraft Pro. Производство барного оборудования премиум-класса.</p>
+    </div>
+  </footer>
+
+  <!-- Контакты -->
+<section class="contacts" id="contacts">
+  <div class="contacts__container">
+    <h2 class="contacts__title">Контакты</h2>
+    <div class="contacts__content">
+      <div class="contacts__item">
+        <h3 class="contacts__item-title">Телефон</h3>
+        <a href="tel:+74951234567" class="contacts__item-link">+7 (495) 123-45-67</a>
+      </div>
+      <div class="contacts__item">
+        <h3 class="contacts__item-title">Email</h3>
+        <a href="mailto:info@barcraftstation.ru" class="contacts__item-link">info@barcraftstation.ru</a>
+      </div>
+      <div class="contacts__item">
+        <h3 class="contacts__item-title">Telegram</h3>
+        <a href="https://t.me/barcraftstation" target="_blank" class="contacts__item-link">@barcraftstation</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <script src="./src/script/main.js"></script>
+</body>
+</html>
