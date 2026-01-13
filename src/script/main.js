@@ -87,17 +87,21 @@ document.addEventListener('DOMContentLoaded', () => {
     burger.classList.remove('active');
     // Убираем overflow, если был
     document.body.style.overflow = '';
+    const overlay = document.querySelector('.overlay');
+  if (overlay) overlay.classList.remove('active');
   }
 
   // Открытие/закрытие
   burger.addEventListener('click', () => {
     nav.classList.toggle('active');
     burger.classList.toggle('active');
-    // Блокируем скролл при открытом меню (опционально)
+    const overlay = document.querySelector('.overlay');
     if (nav.classList.contains('active')) {
       document.body.style.overflow = 'hidden';
+      if (overlay) overlay.classList.add('active');
     } else {
       document.body.style.overflow = '';
+       if (overlay) overlay.classList.remove('active');
     }
   });
 
